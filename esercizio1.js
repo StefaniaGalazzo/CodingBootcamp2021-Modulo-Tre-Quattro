@@ -10,7 +10,7 @@
 //           3.14
 
 
-const PI = 3.14;  // definisco la mia variabile
+const PI = 3.14;  // definisco la mia costante
 
 
 console.log(PI);  // determino il contenuto che andrà in console
@@ -21,9 +21,6 @@ if (PI >= 3) {
                   // SE è VERO che il contenuto della variabile PI è maggiore o uguale a 3 (inteso come numero intero) 
                   // mostrami in console il valore della variabile indicata (3.14)
 }
-
-// Il risultato in console sarà: 3.14
-//                               3.14
 
 */
 
