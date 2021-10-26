@@ -118,7 +118,6 @@ switch (operationChoice) {
 }
 
 
-
 /*
    
 if (operationChoice === "+") { //se la scelta dell'utente corrisponde alla stringa "somma" 
