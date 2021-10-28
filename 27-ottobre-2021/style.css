@@ -33,6 +33,7 @@ h3 {
 
 p {
     padding-bottom: 30px;
+    line-height: 20px;
 }
 
 
@@ -63,7 +64,7 @@ button {
   
   .section-item {
     flex-basis: 25%;
-    border: 1px solid #eee;
+    border: 1px solid black;
     padding: 30px;
     margin: 30px;
   }
@@ -73,6 +74,12 @@ button {
  /* classi JS */
 .darkMode {
     background-color: rgb(27, 27, 27);
+    color: #eee;
+    border: 1px solid #eee;
+}
+
+.darkMode .section-item {
+     border: 1px solid #eee;
 }
 
 .lightMode  {
