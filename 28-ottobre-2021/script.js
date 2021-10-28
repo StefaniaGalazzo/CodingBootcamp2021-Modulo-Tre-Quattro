@@ -73,10 +73,6 @@ function move() {
 // TIP: removeEventListener!
 
 
-// 1 inserire div nell'html rotondo colorato
-// 2 setInterval cambiargli colore N volte 
-// 3 removeList al click invio
-
 
 
 
