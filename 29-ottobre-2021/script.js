@@ -60,5 +60,4 @@ input.addEventListener("keypress", (event) => {
     }
 });
 
-
-eddEl.addEventListener("click", addList);
+addEl.addEventListener("click", addList);
