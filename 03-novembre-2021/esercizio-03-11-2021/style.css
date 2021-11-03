@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial;
+    color: navy;
+}
+
+header{
+    background-color: navy;
+
+}
+h1, h2, h3 {
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+    color: #eee;
+}
+
+form  {
+    border: 1px solid navy;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 30px 200px;
+    background-color: #fff;
+    border: 1px solid navy;
+    margin-bottom: 100px;
+    color: navy;
+}
+
+.divBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
