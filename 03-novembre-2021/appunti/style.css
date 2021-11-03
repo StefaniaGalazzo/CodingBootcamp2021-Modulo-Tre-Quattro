@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 80%;
+    margin: 50px auto 80px;
+    font-family: Arial;
+}
+
+h1, h2, h3, p {
+    margin-bottom: 15px;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+form label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+form input,
+form button {
+    line-height: 16px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px auto;
+}
+
+a {
+    text-decoration: none;
+}
