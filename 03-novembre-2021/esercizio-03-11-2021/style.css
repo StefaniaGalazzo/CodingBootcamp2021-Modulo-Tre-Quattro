@@ -22,16 +22,32 @@ h1, h2, h3 {
 }
 
 form  {
+    background-color: rgb(183, 183, 255);
     border: 1px solid navy;
-    padding: 20px;
-    margin-bottom: 10px;
+    padding: 50px;
 }
 
+form div {
+    border: 1px solid navy;
+    padding: 20px;
+    margin: 5px auto;
+}
+
+
 button {
+    font-weight: bold;
     padding: 30px 200px;
     background-color: #fff;
-    border: 1px solid navy;
-    margin-bottom: 100px;
+    border: 2px solid navy;
+    margin: 50px 0 100px 0;
+    color: navy;
+}
+
+
+button:hover {
+    background-color: rgb(183, 183, 255);
+    border: 2px solid rgb(183, 183, 255);
+    margin: 50px 0 100px 0;
     color: navy;
 }
 
@@ -40,4 +56,12 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.divForm label {
+    border-radius: 50%;
+    background-color: #eee;
+    border-color: 1px solid navy;
+    border-radius: 50%;
+    cursor: pointer;
 }

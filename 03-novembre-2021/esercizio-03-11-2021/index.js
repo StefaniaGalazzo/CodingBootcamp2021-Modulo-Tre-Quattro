@@ -13,16 +13,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const render = (container, items) => {
     const elements = items.map((element) => {
-        if (element.completed === true) {
-            return `<form>
-            <input type="checkbox" name="lorem" id="box" checked>
+        if (element.completed) {
+            return `<div>
+            <input type="radio" name="lorem" id="box" checked>
             <label for="lorem">${element.title}</label>
-          </form>`
+          </div>`
         } else  {
-            return `<form>
-            <input type="checkbox" name="lorem" id="box">
+            return `<div>
+            <input type="radio" name="lorem" id="box">
             <label for="lorem">${element.title}</label>
-          </form>`
+          </div>`
         }
     });
     
