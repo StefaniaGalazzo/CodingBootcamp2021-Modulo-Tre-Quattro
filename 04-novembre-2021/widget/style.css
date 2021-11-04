@@ -94,7 +94,7 @@ input {
   }
 
 
-  div.form2 form{ 
+  div.form-flex form{ 
     background-color: rgba(226, 247, 255, 0.514);
     border-color: 1px solid navy;
     border-radius: 30px;
