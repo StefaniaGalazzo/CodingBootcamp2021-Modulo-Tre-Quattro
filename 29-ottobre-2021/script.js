@@ -33,6 +33,8 @@ const addBtn = document.querySelector(".addBtn");
 
 // AGGIUNGI CHILD ALLA LISTA
 
+
+
 addChild.addEventListener(
     "click", () => {
         const newLi = document.createElement("li");
