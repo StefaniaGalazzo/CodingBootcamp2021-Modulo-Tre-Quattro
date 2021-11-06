@@ -2,7 +2,7 @@ const data = [
     {
         name: "Rick Sanchez",
         phone: "+39 36567889",
-        email: "rick@email.com"
+        email: "rick@email.com",
     },
     {
         name: "Mario Rossi",
@@ -10,7 +10,7 @@ const data = [
         email: "mario@email.com"
     },
     {
-        name: "Xena",
+        name: "Xena Warrior Princess",
         phone: "+39 333444555",
         email: "xena@email.com"
     },
@@ -23,5 +23,10 @@ const data = [
         name: "Alba Flores",
         phone: "+39 000999888",
         email: "alba@email.com"
+    },
+    {
+        name: "Najwa Nimri",
+        phone: "+39 666333000",
+        email: "najwa@email.com"
     }
 ];

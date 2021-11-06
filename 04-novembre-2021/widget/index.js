@@ -13,6 +13,7 @@
      </li>`
    );
    
+
    const content = elements.sort().join('');
  
    container.innerHTML = content;
@@ -63,7 +64,7 @@
         render(list, results);
    });
 
-   // Obbligatorio: 
+   // Esercizio: 
    // al widget concluso oggi aggiungere una seconda form che mi permette di creare un nuovo contatto alla lista esistente.
 
    // Questa form deve avere 3 campi di input per poter inserire nome, email e telefono e una volta premuto il pulsante di submit si dovrà 
@@ -80,6 +81,10 @@
 
         data.push(newUser);
         render(list, data);
+
+
+        form2.reset();
+        // oppure: enter.target.reset();  il reset è un metodo solo dei FORM     
       });
 
 
