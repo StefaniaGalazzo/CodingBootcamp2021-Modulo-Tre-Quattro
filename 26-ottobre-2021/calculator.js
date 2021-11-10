@@ -16,7 +16,6 @@
     SUGGERIMENTO: esistono delle funzioni della libreria Math (vista a lezione).
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
 */
-*/
 
 
 

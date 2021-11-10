@@ -58,7 +58,7 @@ function minimalCalc(numbers) {
     const mult = () => numbers.reduce((acc, num) => acc * num);
     const div = () => numbers.reduce((acc, num) => acc / num);
     const pow = () => numbers.reduce((acc, num) => acc ** num);
-    
+    const sqr = () => numbers.map((numbers) => numbers * 2);
 
     return {
     sum: sum(),
@@ -66,6 +66,7 @@ function minimalCalc(numbers) {
     mult: mult(),
     div: div(),
     pow: pow(),
+    sqr: sqr()
     }
 }
 
