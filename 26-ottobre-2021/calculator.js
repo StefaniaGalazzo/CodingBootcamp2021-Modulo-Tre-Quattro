@@ -69,7 +69,6 @@ let operationChoice = prompt(`Inserisci operazione:
 let numbersChoice = prompt("Inserisci numeri: ") 
 
 const numbers = numbersChoice.split(","); 
-
 const parsedNumbers = [];           
 
 
