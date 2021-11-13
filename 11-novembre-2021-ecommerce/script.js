@@ -49,13 +49,15 @@ function createProduct(parent, imgUrl, productTitle, textPrice) {
 const alfabeticoBtn = document.querySelector(".ordinealfabetico");
 const prezzoCrescenteBtn = document.querySelector(".ordinaperprezzo");
 
+
 alfabeticoBtn.addEventListener('click', () => {
-
     products.sort((a,b) => (a.title > b.title) ? 1 : -1);
-    
-    while(wrapperProducts.firstChild) wrapperProducts.removeChild(wrapperProducts.lastChild);
 
+    while(wrapperProducts.firstChild) wrapperProducts.removeChild(wrapperProducts.lastChild);
+    
     renderProduct(wrapperProducts);
+
+
 
 //    const newProdList = a.sort((a,b)=> (a.title > b.title ? 1 : -1));
 
@@ -63,13 +65,20 @@ alfabeticoBtn.addEventListener('click', () => {
     //     return a.title - b.title;
     // });
     // function renderSortProduct(parent) {
-    //     const titleTwo = (products.sort((a,b) => a.title.localeCompare(b.title)));
+    //     const titleTwo = (products.sort());
     //     titleTwo.map((product) => {
     //         createProduct(parent, product.image, product.title, product.price);
     //     }
     //     )}
 });
 
+
+prezzoCrescenteBtn.addEventListener('click', () => {
+  products.sort((a,b) => (a.price > b.price) ? 1 : -1);
+
+  while(wrapperProducts.firstChild) wrapperProducts.removeChild(wrapperProducts.lastChild);
+  renderProduct(wrapperProducts);
+});
 // console.log(renderSortProduct);
 
 renderProduct(wrapperProducts);

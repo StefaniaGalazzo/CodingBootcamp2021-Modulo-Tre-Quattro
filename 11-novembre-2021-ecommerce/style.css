@@ -46,7 +46,7 @@ strong {
 }
 
 .wrapper__products, .wrapper__prod {
-  margin: 0 40px;
+  margin: 30px 40px;
   height: 38vh;
   display: flex;
   overflow-y: hidden;
