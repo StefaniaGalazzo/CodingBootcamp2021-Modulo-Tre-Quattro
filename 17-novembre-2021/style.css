@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&family=Road+Rage&family=Roboto+Mono:wght@100&display=swap');
+
+/* COLOR: ocra #d8b355  --- brown #633306 --- green: #426306 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-weight: black;
+    font-size: 50px;
+    color: #310069;
+}
+
+header{
+    background-color: #110024 ;
+    padding: 25px 155px;
+    margin-bottom: 80px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:#1b003a;
+    /* font-family: 'Road Rage', cursive;
+    font-family: 'Roboto Mono', monospace;   */
+    }
+
+
+main {
+    margin: 0px auto;
+    width: 80%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+/* hr {
+    border: 0;
+    background-color:  #426306;
+    height: 1px;
+    margin: 20px 0;
+} */
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #110024 ;
+    bottom: 0px;
+    height: 150px;
+    text-align: center;
+}
+
+footer p {
+    color: #371957;
+    padding: 50px;
+}
+
+
+.elSchede {
+    padding: 0 100px;
+}
+
+h2.elSchede, .green{
+    color:#0d001b;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(27, 6, 104, 0.425);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); 
+
+    padding: 50px;
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    justify-content: space-between ;
+    margin-bottom: 30px;
+    margin-left: 120px;
+}
+
+
+.lista li{
+    margin: 8px;
+    
+    border-radius: 30px;
+    list-style: none;
+    color:  #f9ffef;
+    
+    box-shadow: inset 0 0 0 500px rgba(9, 0, 20, 0.3);
+    /* box-shadow: 0 4px 30px rgba(27, 6, 104, 0.425); */
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    min-width: 250px;
+}
+
+
+.lista li:hover{
+    box-shadow: 0 4px 30px rgba(8, 0, 37, 0.3);
+}
+
+.lista li a{
+    display: inline-block;
+    text-decoration: none;
+    color:   #f9ffef;
+    font-weight: bold;
+    font-size: 18px;
+    
+    
+}
+
+
+.blackBackgrnd{
+    background-color: #110024 ;
+    padding:  20px 30px;
+    position: relative;
+    top: 133px;
+
+    
+}
+
+
+#add {
+    margin: 20px 0 20px 30px;
+    padding: 10px;
+    width: 30%;
+
+    font-size: 16px;
+    color:#9275b3;
+    /* background-color:  #472370; */
+    border: 1px solid  #9275b3;
+    border-radius: 30px;
+    
+    text-decoration: none;
+    text-align: center;
+    
+    transition: all 0.4s ease;
+}
+
+#add:hover {
+    cursor: pointer;
+    background-color: #9275b3;
+    color: #6733a3; 
+    border-color: #9275b3;
+}
+
+.addFilm{
+    width: 80%;
+}
+
+
+.labels {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+  #create label {
+    display: block;
+    width: 300px;
+    font-size: 14px;
+    margin: 0 10px 3px 10px;
+    color: #572e85;
+    ;
+  }
+  
+  #create input,
+  #create textarea {
+    display: block;
+    width: 100%;
+    padding: 4px;
+    font-size: 14px;
+    box-sizing: 10px;
+    border-radius: 15px;
+    background-color: #4c2b72;
+    ;
+    border: 2px solid #43137a;
+  }
+  
+  #create input {
+    outline: none;
+    transition: all 0.6s ease;
+  }
+  
+  #create input:focus {
+    border: 2px solid #9275b3;
+    box-shadow: 0px 0px 10px #9275b3;
+  }
+  
+  #create textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+
+  
+  
+  #create .row {
+      margin: 10px 0;
+    }
+    
+    ul li span {
+        text-decoration: underline;
+        cursor: pointer;
+        color: #110024;
+    }
+    
+    
+    
+    .edit.external{
+        padding-right: 13px;
+        border: 0;
+        cursor: pointer;
+        transition: all 0.4s ease;
+        color: #60388d;        
+    }
+    
+    .edit:hover {
+        cursor: pointer;
+        transform: rotate(45deg) scale(1.5);
+    }
+    
+    .delete {
+        border: 0;
+        color: #60388d;
+        border-radius: 50%;
+        background:none;
+        transition: all 0.4s ease;
+    }
+    
+    
+    .delete:hover {
+        cursor: pointer;
+        transform: rotate(360deg) scale(2);
+    }
+
+
+
+
+
+    .saveFilm{
+        margin: 20px 0 20px 0;
+        padding: 10px;
+        width: 30%;
+    
+        font-size: 16px;
+        color:#9275b3;
+        background-color:  #38195c00;
+        border: 1px solid  #9275b3;
+        border-radius: 30px;
+        
+        text-decoration: none;
+        text-align: center;
+        
+        transition: all 0.4s ease;
+
+    }
+  
+
+.saveFilm:hover {
+    cursor: pointer;
+    background-color: #9275b3;
+    color: #472370; 
+    border-color: #9275b3;
+}
+
+a#back{
+    text-decoration: none;
+    color: #9275b3;
+    border: 1px solid #9275b3;
+    padding: 10px 20px;
+
+    font-size: 16px;
+    border: 1px solid  #9275b3;
+    border-radius: 30px;
+    
+    text-decoration: none;
+    text-align: center;
+    
+    transition: all 0.4s ease;
+}
+
+
+a#back:hover{
+    cursor: pointer;
+    border-color: #9275b3;
+    color:#9275b3;
+
+
+}
+
+
+  /* Box di avviso errori */
+  .alert {
+    background-color: #b22222;
+    color: #fff;
+    top: -500px;
+    width: 400px; /* per centrare orizzontalmente un elemento fixed/absolute */
+    left: 50%; /* per centrare orizzontalmente un elemento fixed/absolute */
+    margin-left: -200px; /* per centrare orizzontalmente un elemento fixed/absolute */
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.5s ease;
+  }
+  
+  .alert.show {
+    top: 100px;
+  }
+  
+  .alert p {
+    padding: 20px;
+  }
+  
+  /* Placeholder per caricamento */
+  .loading {
+    color: #aaa;
+    padding: 15px;
+    border: 1px dashed #aaa;
+  
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  /* Animazione */
+  @keyframes pulse {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0.4;
+    }
+  }
