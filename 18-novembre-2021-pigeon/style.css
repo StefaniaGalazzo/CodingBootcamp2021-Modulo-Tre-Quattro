@@ -1,0 +1,107 @@
+body{
+    background-color: #15002f;
+} 
+ 
+ .container{
+    position: relative;
+    border: 1px solid aqua;
+
+    height: 600px;
+    width: 100%;
+
+    margin: 10px auto;
+
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+/* .hero{
+    position: absolute;
+
+    width: 158px;
+    height: 180px;
+    
+    top: 200px;
+    left: 300px; 
+
+    background: url(img/subject.png);
+    background-size: 550px;
+    /* background-position-x: -20px; */
+    /* z-index: 99; */
+    /* transition: top 1s ease, left 1s ease; */
+    /* left 2s ease; 
+    background-position: top left;
+}
+
+
+.hero.walk {
+    background-position: top right;
+} 
+
+.hero.faceDX{
+    background-position: bottom left;
+}
+
+.hero.walkDX{
+    background-position: bottom right;
+} */
+
+/* .btns {
+    position: fixed;
+
+    bottom: 20px;
+    left: 45%;
+} */
+
+.hero{
+    position: absolute;
+
+    width: 158px;
+    height: 180px;
+    
+    top: 200px;
+    left: 300px; 
+
+    background: url(img/sprite2.png);
+    background-size: 800px;
+    /* background-position-x: -20px; */
+    /* z-index: 99; */
+    transition: top 1s ease, left 1s ease;
+    /* left 2s ease; */
+    background-position-x: 350px;
+    background-position-y: 0;
+}
+
+
+.hero.faceSX {
+    background-position-x: 530px;
+} 
+.hero.walkLeft {
+        background-position-x: 680px;
+}
+
+
+.hero.faceDX{
+    background-position-x: 340px;
+}
+.hero.walkDX{
+    background-position-x: 160px;
+}
+
+
+.hero.faceTOP{
+    background-position-x: 340px;
+    background-position-y: 180px;
+}
+
+.hero.flytop{
+    background-position-x: 537px;
+    background-position-y: 180px;
+}
+
+.hero.flyDown{
+    background-position-x: 160px;
+    background-position-y: 180px;
+}
