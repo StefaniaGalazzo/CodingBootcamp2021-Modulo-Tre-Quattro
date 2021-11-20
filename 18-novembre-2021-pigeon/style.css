@@ -17,58 +17,26 @@ body{
 }
 
 
-/* .hero{
-    position: absolute;
-
-    width: 158px;
-    height: 180px;
-    
-    top: 200px;
-    left: 300px; 
-
-    background: url(img/subject.png);
-    background-size: 550px;
-    /* background-position-x: -20px; */
-    /* z-index: 99; */
-    /* transition: top 1s ease, left 1s ease; */
-    /* left 2s ease; 
-    background-position: top left;
-}
-
-
-.hero.walk {
-    background-position: top right;
-} 
-
-.hero.faceDX{
-    background-position: bottom left;
-}
-
-.hero.walkDX{
-    background-position: bottom right;
-} */
-
-/* .btns {
+.btns {
     position: fixed;
 
-    bottom: 20px;
+    bottom: 50px;
     left: 45%;
-} */
+}
 
 .hero{
     position: absolute;
-
+    
     width: 158px;
     height: 180px;
     
     top: 200px;
     left: 300px; 
-
+    
     background: url(img/sprite2.png);
     background-size: 800px;
     /* background-position-x: -20px; */
-    /* z-index: 99; */
-    transition: top 1s ease, left 1s ease;
+        transition: top 1s ease, left 1s ease;
     /* left 2s ease; */
     background-position-x: 350px;
     background-position-y: 0;
@@ -104,4 +72,26 @@ body{
 .hero.flyDown{
     background-position-x: 160px;
     background-position-y: 180px;
+}
+
+
+
+.cacca {
+    background-image: url(img/cacca.png);
+    z-index: -1;
+    position: absolute;
+    width: 40px;
+    height: 70px;
+    
+    top: 88px;
+    left: 50px; 
+
+    background-size: 80%;
+    background-repeat: no-repeat;
+
+    /* display: none; */
+    transition: all 2s ease;
+
+        /* border:1px solid yellow */
+
 }
